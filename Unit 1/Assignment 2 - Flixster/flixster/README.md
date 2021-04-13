@@ -1,5 +1,7 @@
 # Flix
 
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+
 ## Flix Part 2
 
 ### User Stories
@@ -18,8 +20,6 @@ https://imgur.com/a/8GwCp5t
 
 ### Notes
 Had to go to the forums to figure out why the movie grid cells were auto sizing to super small boxes.
-
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 1
 
