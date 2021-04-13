@@ -14,6 +14,7 @@
 
 ### App Walkthrough GIF
 <img src="https://imgur.com/a/8GwCp5t" width=250><br>
+https://imgur.com/a/8GwCp5t
 
 ### Notes
 Had to go to the forums to figure out why the movie grid cells were auto sizing to super small boxes.
