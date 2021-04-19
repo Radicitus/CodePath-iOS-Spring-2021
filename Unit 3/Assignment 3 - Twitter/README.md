@@ -1,14 +1,14 @@
-# Project 3 - *Name of App Here*
+# Twitter - Part 1
 
-**Name of your app** is a basic twitter app to read your tweets.
+**Super Basic Twitter** is a basic twitter app to read your tweets.
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
 - [ ] User can log in. (1pt)
 - [ ] User can log out. (1pt)
 - [ ] User stays logged in across restarts. (1pt)
@@ -23,5 +23,8 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://submissions.us-east-1.linodeobjects.com/ios_university/ApMFA25H.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+## Problems
+
+The twitter API was not working so even though I followed along the whole time I was never able to get past the login screen.
