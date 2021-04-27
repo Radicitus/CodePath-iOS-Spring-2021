@@ -76,7 +76,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1e-KA-d2N">
-                                            <rect key="frame" x="128" y="40" width="266" height="149"/>
+                                            <rect key="frame" x="128" y="40" width="266" height="94"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -87,17 +87,37 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ohg-bX-N37" userLabel="favoriteButton">
+                                            <rect key="frame" x="349" y="144" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="DTE-77-fnC"/>
+                                                <constraint firstAttribute="height" constant="30" id="egA-23-2R3"/>
+                                            </constraints>
+                                            <state key="normal" image="favor-icon"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiP-J4-0fm" userLabel="retweetButton">
+                                            <rect key="frame" x="309" y="146" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="JiU-08-qz0"/>
+                                                <constraint firstAttribute="width" constant="30" id="ej7-LH-FaB"/>
+                                            </constraints>
+                                            <state key="normal" image="retweet-icon"/>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="KmZ-pb-MyD" firstAttribute="trailing" secondItem="EcX-Vr-dzZ" secondAttribute="trailingMargin" id="2y2-Gd-nk6"/>
                                         <constraint firstItem="KmZ-pb-MyD" firstAttribute="leading" secondItem="nqd-1e-16c" secondAttribute="trailing" constant="8" id="LRk-k1-8IO"/>
+                                        <constraint firstItem="Ohg-bX-N37" firstAttribute="top" secondItem="p1e-KA-d2N" secondAttribute="bottom" constant="10" id="NvP-a8-Sao"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Ohg-bX-N37" secondAttribute="bottom" constant="15" id="TfS-tN-Xib"/>
                                         <constraint firstItem="KmZ-pb-MyD" firstAttribute="top" secondItem="EcX-Vr-dzZ" secondAttribute="topMargin" id="VvS-we-m5F"/>
                                         <constraint firstItem="p1e-KA-d2N" firstAttribute="trailing" secondItem="EcX-Vr-dzZ" secondAttribute="trailingMargin" id="Wk9-06-OG7"/>
                                         <constraint firstItem="p1e-KA-d2N" firstAttribute="top" secondItem="KmZ-pb-MyD" secondAttribute="bottom" constant="8" id="aX5-xV-iJY"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Ohg-bX-N37" secondAttribute="trailing" constant="15" id="bCf-nQ-25h"/>
                                         <constraint firstItem="nqd-1e-16c" firstAttribute="top" secondItem="EcX-Vr-dzZ" secondAttribute="topMargin" id="buY-1b-cLY"/>
                                         <constraint firstItem="p1e-KA-d2N" firstAttribute="leading" secondItem="nqd-1e-16c" secondAttribute="trailing" constant="8" id="cm9-wT-Ude"/>
+                                        <constraint firstItem="Ohg-bX-N37" firstAttribute="leading" secondItem="FiP-J4-0fm" secondAttribute="trailing" constant="10" id="mp0-Ky-tJT"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="FiP-J4-0fm" secondAttribute="bottom" constant="13" id="nVR-bu-NPF"/>
                                         <constraint firstItem="nqd-1e-16c" firstAttribute="leading" secondItem="EcX-Vr-dzZ" secondAttribute="leadingMargin" id="oP8-BX-rak"/>
-                                        <constraint firstItem="p1e-KA-d2N" firstAttribute="bottom" secondItem="EcX-Vr-dzZ" secondAttribute="bottomMargin" id="xIc-Ze-Nwu"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -222,6 +242,8 @@
     </scenes>
     <resources>
         <image name="Twitter_Logo_Blue" width="200" height="200"/>
+        <image name="favor-icon" width="30" height="30"/>
+        <image name="retweet-icon" width="30" height="30"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
