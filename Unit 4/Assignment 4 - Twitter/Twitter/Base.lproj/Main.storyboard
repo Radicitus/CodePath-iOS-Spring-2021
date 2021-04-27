@@ -94,6 +94,9 @@
                                                 <constraint firstAttribute="height" constant="30" id="egA-23-2R3"/>
                                             </constraints>
                                             <state key="normal" image="favor-icon"/>
+                                            <connections>
+                                                <action selector="favoriteTweetAction:" destination="5M9-ye-ro3" eventType="touchUpInside" id="jdY-G9-Gbn"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiP-J4-0fm" userLabel="retweetButton">
                                             <rect key="frame" x="309" y="146" width="30" height="30"/>
@@ -102,6 +105,9 @@
                                                 <constraint firstAttribute="width" constant="30" id="ej7-LH-FaB"/>
                                             </constraints>
                                             <state key="normal" image="retweet-icon"/>
+                                            <connections>
+                                                <action selector="retweetButtonAction:" destination="5M9-ye-ro3" eventType="touchUpInside" id="HHm-hl-pWN"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -121,7 +127,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="favoriteButton" destination="Ohg-bX-N37" id="wNh-tO-Zbt"/>
                                     <outlet property="profileImageView" destination="nqd-1e-16c" id="5kl-3i-AK8"/>
+                                    <outlet property="retweetButton" destination="FiP-J4-0fm" id="W6r-Iw-Mz5"/>
                                     <outlet property="tweetContent" destination="p1e-KA-d2N" id="TcD-pO-9BZ"/>
                                     <outlet property="userNameLabel" destination="KmZ-pb-MyD" id="Vho-A1-MFQ"/>
                                 </connections>
