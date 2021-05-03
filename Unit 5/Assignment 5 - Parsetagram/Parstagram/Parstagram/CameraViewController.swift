@@ -21,7 +21,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         post["author"] = PFUser.current()!
         
         let imageData = imageView.image!.pngData()
-        let image = PFFileObject(data: imageData!)
+        let image = PFFileObject(name: "image.png", data: imageData!)
         
         post["image"] = image
         
