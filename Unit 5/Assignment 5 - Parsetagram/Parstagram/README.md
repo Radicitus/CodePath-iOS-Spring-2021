@@ -24,3 +24,6 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/45127818/116847094-b2548c80-ab9e-11eb-90e8-3cb7924568da.gif)
+
+###Updated Stylized Launch Page
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/45127818/117232303-be765f00-add5-11eb-822d-1290c893bf56.gif)
